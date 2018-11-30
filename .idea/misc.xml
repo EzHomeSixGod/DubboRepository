@@ -11,6 +11,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/dubbo-demo-comsumer" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-demo-provider" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -25,7 +26,6 @@
       <set>
         <option value="$PROJECT_DIR$/dubbo-demo-comsumer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-demo-provider/pom.xml" />
       </set>
     </option>
   </component>
