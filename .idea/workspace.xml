@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="dubbo-demo-provider:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba6f79de-a49e-4ca7-a117-0fd9c85c7ae9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DubboRepository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DubboRepository.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dubbo_demo_provider_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dubbo_demo_provider_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo-api/dubbo-demo-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo-api/dubbo-demo-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo-common/dubbo-demo-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo-common/dubbo-demo-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo-core/dubbodemocore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo-core/dubbodemocore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo-provider/dubbo-demo-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo-provider/dubbo-demo-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-api/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-comsumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-core/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="provider.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="127.0.0.1-127.0.0.1:6379-explorer" pinned="false" current-in-tab="true">
+        <entry file="redis://IedisURI?type=Explorer&amp;label=127.0.0.1&amp;host=127.0.0.1&amp;port=6379&amp;password=&amp;timestamp=1543569536213&amp;nodeHost=127.0.0.1&amp;nodePort=6379">
+          <provider selected="true" editor-type-id="x" />
+        </entry>
+      </file>
+      <file leaf-file-name="spring-redis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-redis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+              <folding>
+                <element signature="e#538#556#0" expanded="true" />
+                <element signature="e#601#619#0" expanded="true" />
+                <element signature="e#921#940#0" expanded="true" />
+                <element signature="e#1242#1257#0" expanded="true" />
+                <element signature="e#1303#1322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="135" column="39" lean-forward="true" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dubbo.xsd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/dubbo.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="121" column="39" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FailbackRegistry.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/registry/support/FailbackRegistry.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="493" selection-start-line="493" selection-end-line="493" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisRegistry.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/registry/redis/RedisRegistry.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pool.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.0.0/jedis-2.0.0.jar!/redis/clients/util/Pool.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenericObjectPool.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.6/commons-pool-1.6.jar!/org/apache/commons/pool/impl/GenericObjectPool.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1082">
+              <caret line="315" column="21" lean-forward="true" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>api</find>
+      <find>dubbo-demo-api</find>
+      <find>comsu</find>
+      <find>cacheManager</find>
+      <find>cacheMana</find>
+      <find>spring-data-redis</find>
+      <find>spring-core</find>
+      <find>mybatis</find>
+      <find>tk.mybatis</find>
+      <find>apache.com</find>
+      <find>codec</find>
+      <find>spring-beans</find>
+      <find>bean</find>
+      <find>javax.persistence</find>
+      <find>dubbo:applicaation</find>
+      <find>dubbo:application</find>
+      <find>ap</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="F:/demo/braintree_spring_example-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dubbo-demo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-api/src/main/java/com/ezhomesixgod/service/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-consumer/src/main/java/com/ezhomesixgod/consumer/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/Privoder.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-comsumer/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-comsumer/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/applicationProvider.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-comsumer/src/main/resources/applicationConsumer.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/provider/DemoService.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-comsumer/src/main/java/com/ezhomesixgod/comsumer/App.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/provider/App.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/ezhomesixgod.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/dada.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-context.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-core/src/main/java/com/ezhomesixgod/core/config/EncryptPropertyPlaceholderConfigurer.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-common/src/main/java/com/ezhomesixgod/model/TbUser.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/mapper/TbUserMapper.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/xml/TbUserMapper.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/service/impl/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-core/src/main/java/com/ezhomesixgod/core/util/DESUtils.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-core/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/config/EncryptPropertyPlaceholderConfigurer.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/App.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/dubbo.xsd" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/provider.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven\apache-maven-3.3.3-bin\repo" />
+        <option name="mavenHome" value="F:/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-demo-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-demo-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="495" />
+    <option name="y" value="45" />
+    <option name="width" value="1928" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DubboRepository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DubboRepository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DubboRepository" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="SqlSessionFactoryBean&#9;FILE&#9;jar://F:/maven/apache-maven-3.3.3-bin/repo/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo-demo-provider/target/dubbo-demo-provider.war" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15546875" />
+    <property name="project.structure.side.proportion" value="0.26519758" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\DubboRepository\dubbo-demo-provider\src\main\resources\xml" />
+      <recent name="F:\DubboRepository\dubbo-demo-provider\src\main\resources" />
+      <recent name="F:\DubboRepository\dubbo-demo-provider\src\main\webapp\WEB-INF" />
+      <recent name="F:\DubboRepository\dubbo-demo-comsumer\src\main\webapp\WEB-INF" />
+      <recent name="F:\DubboRepository\dubbo-demo-provider\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ezhomesixgod.mapper" />
+      <recent name="com.ezhomesixgod.model" />
+      <recent name="com.ezhomesixgod.core.util" />
+      <recent name="com.ezhomesixgod.core.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\DubboRepository\dubbo-demo-provider\src\main\resources" />
+      <recent name="F:\DubboRepository\dubbo-demo-provider\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ezhomesixgod.App" />
+      <module name="dubbo-demo-provider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ezhomesixgod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="dubbo-demo-cosumer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="dubbo-demo-provider:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_DubboRepository_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3401" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="dubbo-demo-provider:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+    <option name="showMultipleContextsPanel" value="false" />
+    <option name="showProfilesPanel" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba6f79de-a49e-4ca7-a117-0fd9c85c7ae9" name="Default" comment="" />
+      <created>1543300535287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543300535287</updated>
+      <workItem from="1543300536646" duration="6717000" />
+      <workItem from="1543307277331" duration="1053000" />
+      <workItem from="1543308340599" duration="3209000" />
+      <workItem from="1543311561766" duration="926000" />
+      <workItem from="1543312521157" duration="1136000" />
+      <workItem from="1543313685247" duration="1425000" />
+      <workItem from="1543456968961" duration="7661000" />
+      <workItem from="1543486958305" duration="782000" />
+      <workItem from="1543539910287" duration="217000" />
+      <workItem from="1543540628124" duration="4771000" />
+      <workItem from="1543545413860" duration="4272000" />
+      <workItem from="1543549918142" duration="5178000" />
+      <workItem from="1543555425079" duration="4377000" />
+      <workItem from="1543560196070" duration="725000" />
+      <workItem from="1543560944461" duration="1691000" />
+      <workItem from="1543562662215" duration="6062000" />
+    </task>
+    <task id="LOCAL-00001" summary="【add】springmvc mybatis config file">
+      <created>1543545795705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543545795705</updated>
+    </task>
+    <task id="LOCAL-00002" summary="【add】mod file">
+      <created>1543552479743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543552479743</updated>
+    </task>
+    <task id="LOCAL-00003" summary="【add】mod file">
+      <created>1543555447085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543555447085</updated>
+    </task>
+    <task id="LOCAL-00004" summary="【add】mod file">
+      <created>1543559375384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543559375384</updated>
+    </task>
+    <task id="LOCAL-00005" summary="【add】mod file">
+      <created>1543561690202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543561690202</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50202000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.09528908" side_tool="true" weight="0.7583815" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49946466" weight="0.47398844" />
+      <window_info anchor="right" id="Redis Servers" order="3" weight="0.32976446" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.33779442" />
+      <window_info anchor="right" id="CDI" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32976446" />
+      <window_info anchor="right" id="JSF" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.90471095" visible="true" weight="0.008092485" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.9041756" weight="0.39421967" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3286219" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8940043" weight="0.6635838" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32979977" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.08554913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Bean Validation" order="4" weight="0.32976446" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.49248555" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="【add】springmvc mybatis config file" />
+    <MESSAGE value="【add】mod file" />
+    <option name="LAST_COMMIT_MESSAGE" value="【add】mod file" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-comsumer/src/main/resources/applicationConsumer.xml" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/provider/DemoService.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-comsumer/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-comsumer/src/main/java/com/ezhomesixgod/comsumer/App.java" />
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/provider/App.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/dada.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-api/src/test/java/groupId/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/util/IntrospectorCleanupListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/core/impl/RedisServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/core/IRedisService.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-task.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.0.0/pagehelper-5.0.0.jar!/com/github/pagehelper/PageInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="41" column="76" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-context.xml" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/service/impl/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/mapper/TbUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.3.9/mapper-3.3.9.jar!/tk/mybatis/spring/mapper/MapperScannerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.3.9/mapper-3.3.9.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/xml/TbUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-pool.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-common/src/main/java/com/ezhomesixgod/model/TbUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-core/src/main/java/com/ezhomesixgod/core/util/DESUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://MAVEN/com.ezhomesixgod:dubbo-demo-provider:1.0.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.ezhomesixgod:dubbo-demo-provider:1.0.0</OriginalElement>
+          <nodes>
+            <node x="" y="">com.ezhomesixgod:dubbo-demo-provider:1.0.0</node>
+            <node x="" y="">com.ezhomesixgod:dubbo-demo-api:jar:1.0.0</node>
+            <node x="" y="">com.ezhomesixgod:dubbo-demo-core:jar:1.0.0</node>
+            <node x="" y="">com.ezhomesixgod:dubbo-demo-common:jar:1.0.0</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7/org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7/org.springframework:spring-context:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7/org.springframework:spring-beans:jar:4.2.5.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7/org.springframework:spring-web:jar:4.3.10.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.7/org.jboss.netty:netty:jar:3.2.5.Final</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.2.5.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-oxm:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.2.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.2.5.RELEASE/org.aspectj:aspectjweaver:jar:1.8.8</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.7.4</node>
+            <node x="" y="">org.aspectj:aspectjrt:jar:1.7.4</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.2.5.RELEASE</node>
+            <node x="" y="">javax:javaee-api:jar:7.0</node>
+            <node x="" y="">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0</node>
+            <node x="" y="">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0/javax.activation:activation:jar:1.1</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.30</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.23</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.23/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.23/com.alibaba:tools:jar:1.8.0</node>
+            <node x="" y="">jstl:jstl:jar:1.2</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.8.0-beta1</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.8.0-beta1/org.slf4j:slf4j-api:jar:1.8.0-beta1</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.8.0-beta1/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.1.41</node>
+            <node x="" y="">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.1</node>
+            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">commons-httpclient:commons-httpclient:jar:3.1</node>
+            <node x="" y="">commons-httpclient:commons-httpclient:jar:3.1/commons-logging:commons-logging:jar:1.0.4</node>
+            <node x="" y="">commons-httpclient:commons-httpclient:jar:3.1/commons-codec:commons-codec:jar:1.2</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-lang:commons-lang:jar:2.5</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
+            <node x="" y="">net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.6.5</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.6.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.6.5/com.fasterxml.jackson.core:jackson-core:jar:2.6.5</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.5</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.5/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6</node>
+            <node x="" y="">com.qiniu:qiniu-java-sdk:jar:7.2.17</node>
+            <node x="" y="">com.qiniu:qiniu-java-sdk:jar:7.2.17/com.squareup.okhttp3:okhttp:jar:3.9.1</node>
+            <node x="" y="">com.qiniu:qiniu-java-sdk:jar:7.2.17/com.squareup.okhttp3:okhttp:jar:3.9.1/com.squareup.okio:okio:jar:1.13.0</node>
+            <node x="" y="">com.qiniu:qiniu-java-sdk:jar:7.2.17/com.google.code.gson:gson:jar:2.8.2</node>
+            <node x="" y="">com.aliyun.oss:aliyun-sdk-oss:jar:2.7.0</node>
+            <node x="" y="">com.aliyun.oss:aliyun-sdk-oss:jar:2.7.0/org.jdom:jdom:jar:1.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/javax.xml.bind:jaxb-api:jar:2.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/javax.xml.bind:jaxb-api:jar:2.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/javax.xml.bind:jaxb-api:jar:2.1/javax.activation:activation:jar:1.1.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/com.sun.xml.bind:jaxb-core:jar:2.1.14</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/com.sun.xml.bind:jaxb-impl:jar:2.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.6/javax.activation:activation:jar:1.1.1</node>
+            <node x="" y="">com.aliyun:aliyun-java-sdk-dysmsapi:jar:1.1.0</node>
+            <node x="" y="">dom4j:dom4j:jar:1.6</node>
+            <node x="" y="">dom4j:dom4j:jar:1.6/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="" y="">redis.clients:jedis:jar:2.9.0</node>
+            <node x="" y="">redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.6.2.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.6.2.RELEASE/org.springframework:spring-tx:jar:4.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.6.2.RELEASE/org.springframework:spring-context-support:jar:4.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.6.2.RELEASE/org.springframework:spring-aop:jar:4.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.6.2.RELEASE/org.springframework:spring-core:jar:4.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-redis:jar:1.6.2.RELEASE/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="" y="">com.github.pagehelper:pagehelper:jar:5.0.0</node>
+            <node x="" y="">com.github.jsqlparser:jsqlparser:jar:0.9.5</node>
+            <node x="" y="">org.simpleframework:simple-xml:jar:2.7.1</node>
+            <node x="" y="">org.simpleframework:simple-xml:jar:2.7.1/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.simpleframework:simple-xml:jar:2.7.1/stax:stax:jar:1.2.0</node>
+            <node x="" y="">org.simpleframework:simple-xml:jar:2.7.1/xpp3:xpp3:jar:1.1.3.3</node>
+            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.3</node>
+            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.3/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.3/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.7</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.2.6</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.2.2</node>
+            <node x="" y="">tk.mybatis:mapper:jar:3.3.9</node>
+            <node x="" y="">javax.persistence:persistence-api:jar:1.0</node>
+            <node x="" y="">org.mybatis.generator:mybatis-generator-core:jar:1.3.5</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.08650190114068441" x="4724.0" y="410.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/config/EncryptPropertyPlaceholderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/META-INF/dubbo.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/java/com/ezhomesixgod/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/META-INF/dubbo.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/META-INF/dubbo.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1077" column="4" selection-start-line="1077" selection-start-column="4" selection-end-line="1077" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="272" column="8" selection-start-line="272" selection-start-column="8" selection-end-line="272" selection-end-column="8" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#resources#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="95" selection-start-line="6" selection-start-column="95" selection-end-line="6" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="135" column="39" lean-forward="true" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/registry/support/FailbackRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="493" selection-start-line="493" selection-end-line="493" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/registry/redis/RedisRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.0.0/jedis-2.0.0.jar!/redis/clients/util/Pool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.6/commons-pool-1.6.jar!/org/apache/commons/pool/impl/GenericObjectPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1082">
+          <caret line="315" column="21" lean-forward="true" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="e#538#556#0" expanded="true" />
+            <element signature="e#601#619#0" expanded="true" />
+            <element signature="e#921#940#0" expanded="true" />
+            <element signature="e#1242#1257#0" expanded="true" />
+            <element signature="e#1303#1322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/dubbo.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="121" column="39" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-provider/src/main/resources/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="redis://IedisURI?type=Explorer&amp;label=127.0.0.1&amp;host=127.0.0.1&amp;port=6379&amp;password=&amp;timestamp=1543569536213&amp;nodeHost=127.0.0.1&amp;nodePort=6379">
+      <provider selected="true" editor-type-id="x" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>dubbo-demo-provider:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519758" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (dubbo-demo-provider)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519758" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519758" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519758" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dubbo-demo-provider</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519758" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-codec:commons-codec:1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519758" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

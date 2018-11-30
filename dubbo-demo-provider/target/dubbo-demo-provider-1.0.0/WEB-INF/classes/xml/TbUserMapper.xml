@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.share.common.dao.mapper.TbUserMapper">
+      <resultMap id="BaseResultMap" type="com.share.common.model.TbUser">
+          <!--
+            WARNING - @mbg.generated
+          -->
+          <id column="id" jdbcType="INTEGER" property="id" />
+          <result column="father_id" jdbcType="INTEGER" property="fatherId" />
+          <result column="agent_id" jdbcType="INTEGER" property="agentId" />
+          <result column="code" jdbcType="VARCHAR" property="code" />
+          <result column="name" jdbcType="VARCHAR" property="name" />
+          <result column="name_real" jdbcType="VARCHAR" property="nameReal" />
+          <result column="idcard" jdbcType="VARCHAR" property="idcard" />
+          <result column="head" jdbcType="VARCHAR" property="head" />
+          <result column="sex" jdbcType="INTEGER" property="sex" />
+          <result column="identity" jdbcType="INTEGER" property="identity" />
+          <result column="is_official" jdbcType="INTEGER" property="isOfficial" />
+          <result column="is_patrol" jdbcType="INTEGER" property="isPatrol" />
+          <result column="is_volunteer" jdbcType="INTEGER" property="isVolunteer" />
+          <result column="is_agent" jdbcType="INTEGER" property="isAgent" />
+          <result column="room_number" jdbcType="INTEGER" property="roomNumber" />
+          <result column="phone" jdbcType="VARCHAR" property="phone" />
+          <result column="password" jdbcType="VARCHAR" property="password" />
+          <result column="openid_wx" jdbcType="VARCHAR" property="openidWx" />
+          <result column="wx_account" jdbcType="VARCHAR" property="wxAccount" />
+          <result column="openid_alipay" jdbcType="VARCHAR" property="openidAlipay" />
+          <result column="openid_qq" jdbcType="VARCHAR" property="openidQq" />
+          <result column="openid_wb" jdbcType="VARCHAR" property="openidWb" />
+          <result column="diamond" jdbcType="INTEGER" property="diamond" />
+          <result column="money" jdbcType="INTEGER" property="money" />
+          <result column="point" jdbcType="DECIMAL" property="point" />
+          <result column="heart" jdbcType="INTEGER" property="heart" />
+          <result column="heart_get" jdbcType="INTEGER" property="heartGet" />
+          <result column="shareoption" jdbcType="INTEGER" property="shareoption" />
+          <result column="pay_pwd" jdbcType="VARCHAR" property="payPwd" />
+          <result column="is_real" jdbcType="INTEGER" property="isReal" />
+          <result column="prov" jdbcType="VARCHAR" property="prov" />
+          <result column="city" jdbcType="VARCHAR" property="city" />
+          <result column="signature" jdbcType="VARCHAR" property="signature" />
+          <result column="comment" jdbcType="VARCHAR" property="comment" />
+          <result column="status" jdbcType="TINYINT" property="status" />
+          <result column="token" jdbcType="VARCHAR" property="token" />
+          <result column="login_time" jdbcType="TIMESTAMP" property="loginTime" />
+          <result column="level_one" jdbcType="INTEGER" property="levelOne" />
+          <result column="level_two" jdbcType="INTEGER" property="levelTwo" />
+          <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+
+  </resultMap>
+
+
+</mapper>
