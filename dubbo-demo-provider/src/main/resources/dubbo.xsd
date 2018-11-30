@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+<xsd:schema xmlns="http://code.alibabatech.com/schema/dubbo"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
             xmlns:beans="http://www.springframework.org/schema/beans"
             xmlns:tool="http://www.springframework.org/schema/tool"
-            xmlns="http://dubbo.apache.org/schema/dubbo"
-            targetNamespace="http://dubbo.apache.org/schema/dubbo">
+            targetNamespace="http://code.alibabatech.com/schema/dubbo">
 
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:import namespace="http://www.springframework.org/schema/beans"/>
     <xsd:import namespace="http://www.springframework.org/schema/tool"/>
 
     <xsd:annotation>
-        <xsd:documentation>
-            <![CDATA[ Namespace support for the dubbo services provided by dubbo framework. ]]></xsd:documentation>
+        <xsd:documentation><![CDATA[ Namespace support for the dubbo services provided by dubbo framework. ]]></xsd:documentation>
     </xsd:annotation>
 
     <xsd:complexType name="abstractMethodType">
@@ -32,8 +31,7 @@
         </xsd:attribute>
         <xsd:attribute name="connections" type="xsd:string" use="optional">
             <xsd:annotation>
-                <xsd:documentation>
-                    <![CDATA[ The exclusive connections. default share one connection. ]]></xsd:documentation>
+                <xsd:documentation><![CDATA[ The exclusive connections. default share one connection. ]]></xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="loadbalance" type="xsd:string" use="optional">
@@ -53,7 +51,7 @@
         </xsd:attribute>
         <xsd:attribute name="mock" type="xsd:string" use="optional">
             <xsd:annotation>
-                <xsd:documentation><![CDATA[ Use service mock implementation. ]]></xsd:documentation>
+                <xsd:documentation><![CDATA[ Use service mock implemention. ]]></xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="merger" type="xsd:string" use="optional">
@@ -83,12 +81,12 @@
                 </xsd:attribute>
                 <xsd:attribute name="local" type="xsd:string" use="optional">
                     <xsd:annotation>
-                        <xsd:documentation><![CDATA[ Use service local implementation. ]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ Use service local implemention. ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="stub" type="xsd:string" use="optional">
                     <xsd:annotation>
-                        <xsd:documentation><![CDATA[ Use service local implementation. ]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ Use service local implemention. ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="proxy" type="xsd:string" use="optional">
@@ -158,8 +156,7 @@
                 </xsd:attribute>
                 <xsd:attribute name="scope" type="xsd:string" use="optional">
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ Defines the service visibility, choise:[local remote]. default is remote, which can be invoked by network。  ]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ Defines the service visibility, choise:[local remote]. default is remote, which can be invoked by network。  ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
             </xsd:extension>
@@ -201,14 +198,12 @@
                 </xsd:attribute>
                 <xsd:attribute name="sticky" type="xsd:string" use="optional">
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ Enable/Disable cluster sticky policy.Default false ]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ Enable/Disable cluster sticky policy.Default false ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="reconnect" type="xsd:string" use="optional">
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ remoting reconnect timer. false represent close reconnect. integer represent interval(ms) .default true(2000ms).]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ remoting reconnect timer. false represent close reconnect. integer represent interval(ms) .default true(2000ms).]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="lazy" type="xsd:string" use="optional">
@@ -273,8 +268,7 @@
                 </xsd:attribute>
                 <xsd:attribute name="dynamic" type="xsd:string" use="optional">
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ the service registered to the registry is dynamic(true) or static(false). ]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ the service registered to the registry is dynamic(true) or static(false). ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="token" type="xsd:string" use="optional">
@@ -297,25 +291,12 @@
                         <xsd:documentation><![CDATA[ The service protocol. ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
-                <xsd:attribute name="warmup" type="xsd:string" use="optional">
-                    <xsd:annotation>
-                        <xsd:documentation><![CDATA[ The warmup time in Milliseconds. ]]></xsd:documentation>
-                    </xsd:annotation>
-                </xsd:attribute>
-                <xsd:attribute name="serialization" type="xsd:string" use="optional">
-                    <xsd:annotation>
-                        <xsd:documentation><![CDATA[ The serialization protocol of service. ]]></xsd:documentation>
-                    </xsd:annotation>
-                </xsd:attribute>
-                <xsd:anyAttribute namespace="##other" processContents="lax"/>
+                <xsd:anyAttribute namespace="##other" processContents="lax" />
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
 
     <xsd:complexType name="applicationType">
-        <xsd:sequence minOccurs="0" maxOccurs="unbounded">
-            <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded"/>
-        </xsd:sequence>
         <xsd:attribute name="id" type="xsd:ID">
             <xsd:annotation>
                 <xsd:documentation><![CDATA[ The unique identifier for a bean. ]]></xsd:documentation>
@@ -423,7 +404,7 @@
 
     <xsd:complexType name="registryType">
         <xsd:sequence minOccurs="0" maxOccurs="unbounded">
-            <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
         </xsd:sequence>
         <xsd:attribute name="id" type="xsd:ID">
             <xsd:annotation>
@@ -517,20 +498,17 @@
         </xsd:attribute>
         <xsd:attribute name="dynamic" type="xsd:string" use="optional">
             <xsd:annotation>
-                <xsd:documentation>
-                    <![CDATA[ the service registered to this registry is dynamic(true) or static(false). ]]></xsd:documentation>
+                <xsd:documentation><![CDATA[ the service registered to this registry is dynamic(true) or static(false). ]]></xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="register" type="xsd:string" use="optional">
             <xsd:annotation>
-                <xsd:documentation>
-                    <![CDATA[ register service to this registry(true) or not(false). ]]></xsd:documentation>
+                <xsd:documentation><![CDATA[ register service to this registry(true) or not(false). ]]></xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="subscribe" type="xsd:string" use="optional">
             <xsd:annotation>
-                <xsd:documentation>
-                    <![CDATA[ subscribe service to this registry(true) or not(false). ]]></xsd:documentation>
+                <xsd:documentation><![CDATA[ subscribe service to this registry(true) or not(false). ]]></xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="default" type="xsd:string" use="optional">
@@ -542,7 +520,7 @@
 
     <xsd:complexType name="monitorType">
         <xsd:sequence minOccurs="0" maxOccurs="unbounded">
-            <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
         </xsd:sequence>
         <xsd:attribute name="address" type="xsd:string" use="optional">
             <xsd:annotation>
@@ -574,11 +552,6 @@
                 <xsd:documentation><![CDATA[ The monitor version. ]]></xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
-        <xsd:attribute name="interval" type="xsd:string" use="optional">
-            <xsd:annotation>
-                <xsd:documentation><![CDATA[ The monitor interval. ]]></xsd:documentation>
-            </xsd:annotation>
-        </xsd:attribute>
         <xsd:attribute name="default" type="xsd:string" use="optional">
             <xsd:annotation>
                 <xsd:documentation><![CDATA[ Is default. ]]></xsd:documentation>
@@ -608,8 +581,8 @@
         <xsd:complexContent>
             <xsd:extension base="abstractMethodType">
                 <xsd:choice minOccurs="0" maxOccurs="unbounded">
-                    <xsd:element ref="argument" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="argument" minOccurs="0" maxOccurs="unbounded" />
+                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
                 </xsd:choice>
                 <xsd:attribute name="name" type="xsd:string" use="required">
                     <xsd:annotation>
@@ -643,30 +616,27 @@
                 </xsd:attribute>
                 <xsd:attribute name="sticky" type="xsd:string" use="optional">
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ Enable/Disable cluster sticky policy.Default false ]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ Enable/Disable cluster sticky policy.Default false ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
-                <xsd:attribute name="return" type="xsd:string" use="optional">
+                <xsd:attribute name="return" type="xsd:string" use="optional" >
                     <xsd:annotation>
                         <xsd:documentation><![CDATA[ Method result is return. default is true.]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
-                <xsd:attribute name="oninvoke" type="xsd:string" use="optional">
+                <xsd:attribute name="oninvoke" type="xsd:string" use="optional" >
                     <xsd:annotation>
                         <xsd:documentation><![CDATA[ Method invoke trigger.]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
-                <xsd:attribute name="onreturn" type="xsd:string" use="optional">
+                <xsd:attribute name="onreturn" type="xsd:string" use="optional" >
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ Method return trigger. return attribute must be true.]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ Method return trigger. return attribute must be true.]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
-                <xsd:attribute name="onthrow" type="xsd:string" use="optional">
+                <xsd:attribute name="onthrow" type="xsd:string" use="optional" >
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ Method on error trigger.return attribute must be true.]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ Method on error trigger.return attribute must be true.]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
             </xsd:extension>
@@ -674,7 +644,7 @@
     </xsd:complexType>
 
     <xsd:complexType name="argumentType">
-        <xsd:attribute name="index" type="xsd:string" use="optional">
+        <xsd:attribute name="index" type="xsd:string" use="optional" >
             <xsd:annotation>
                 <xsd:documentation><![CDATA[ The argument index. ]]></xsd:documentation>
             </xsd:annotation>
@@ -695,20 +665,14 @@
         <xsd:complexContent>
             <xsd:extension base="abstractReferenceType">
                 <xsd:sequence minOccurs="0" maxOccurs="unbounded">
-                    <xsd:element ref="reference" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
                 </xsd:sequence>
                 <xsd:attribute name="default" type="xsd:string" use="optional">
                     <xsd:annotation>
                         <xsd:documentation><![CDATA[ Is default. ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
-                <xsd:attribute name="client" type="xsd:string" use="optional">
-                    <xsd:annotation>
-                        <xsd:documentation><![CDATA[ Transporter layer framework: netty mina.... ]]></xsd:documentation>
-                    </xsd:annotation>
-                </xsd:attribute>
-                <xsd:anyAttribute namespace="##other" processContents="lax"/>
+                <xsd:anyAttribute namespace="##other" processContents="lax" />
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
@@ -717,8 +681,8 @@
         <xsd:complexContent>
             <xsd:extension base="abstractReferenceType">
                 <xsd:choice minOccurs="0" maxOccurs="unbounded">
-                    <xsd:element ref="method" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="method" minOccurs="0" maxOccurs="unbounded" />
+                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
                 </xsd:choice>
                 <xsd:attribute name="interface" type="xsd:token" use="required">
                     <xsd:annotation>
@@ -750,14 +714,14 @@
                         <xsd:documentation><![CDATA[ The service protocol. ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
-                <xsd:anyAttribute namespace="##other" processContents="lax"/>
+                <xsd:anyAttribute namespace="##other" processContents="lax" />
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
 
     <xsd:complexType name="protocolType">
         <xsd:sequence minOccurs="0" maxOccurs="unbounded">
-            <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
         </xsd:sequence>
         <xsd:attribute name="id" type="xsd:ID">
             <xsd:annotation>
@@ -812,21 +776,6 @@
         <xsd:attribute name="serialization" type="xsd:string" use="optional">
             <xsd:annotation>
                 <xsd:documentation><![CDATA[ The protocol serialization. ]]></xsd:documentation>
-            </xsd:annotation>
-        </xsd:attribute>
-        <xsd:attribute name="keepalive" type="xsd:boolean" use="optional">
-            <xsd:annotation>
-                <xsd:documentation><![CDATA[ The protocol keepAlive. ]]></xsd:documentation>
-            </xsd:annotation>
-        </xsd:attribute>
-        <xsd:attribute name="optimizer" type="xsd:string" use="optional">
-            <xsd:annotation>
-                <xsd:documentation><![CDATA[ The serialization optimizer. ]]></xsd:documentation>
-            </xsd:annotation>
-        </xsd:attribute>
-        <xsd:attribute name="extension" type="xsd:string" use="optional">
-            <xsd:annotation>
-                <xsd:documentation><![CDATA[ The extension for protocol. ]]></xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="charset" type="xsd:string" use="optional">
@@ -906,8 +855,7 @@
         </xsd:attribute>
         <xsd:attribute name="path" type="xsd:string" use="optional">
             <xsd:annotation>
-                <xsd:documentation>
-                    <![CDATA[ The protocol context path. replace to "contextpath". ]]></xsd:documentation>
+                <xsd:documentation><![CDATA[ The protocol context path. replace to "contextpath". ]]></xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="contextpath" type="xsd:string" use="optional">
@@ -925,15 +873,15 @@
                 <xsd:documentation><![CDATA[ Is default. ]]></xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
-        <xsd:anyAttribute namespace="##other" processContents="lax"/>
+        <xsd:anyAttribute namespace="##other" processContents="lax" />
     </xsd:complexType>
 
     <xsd:complexType name="providerType">
         <xsd:complexContent>
             <xsd:extension base="abstractServiceType">
                 <xsd:choice minOccurs="0" maxOccurs="unbounded">
-                    <xsd:element ref="service" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="service" minOccurs="0" maxOccurs="unbounded" />
+                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
                 </xsd:choice>
                 <xsd:attribute name="host" type="xsd:string" use="optional">
                     <xsd:annotation>
@@ -973,6 +921,11 @@
                 <xsd:attribute name="codec" type="xsd:string" use="optional">
                     <xsd:annotation>
                         <xsd:documentation><![CDATA[ The protocol codec. ]]></xsd:documentation>
+                    </xsd:annotation>
+                </xsd:attribute>
+                <xsd:attribute name="serialization" type="xsd:string" use="optional">
+                    <xsd:annotation>
+                        <xsd:documentation><![CDATA[ The protocol serialization. ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="charset" type="xsd:string" use="optional">
@@ -1042,8 +995,7 @@
                 </xsd:attribute>
                 <xsd:attribute name="path" type="xsd:string" use="optional">
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ The protocol context path. replace to "contextpath". ]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ The protocol context path. replace to "contextpath". ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="contextpath" type="xsd:string" use="optional">
@@ -1061,7 +1013,7 @@
                         <xsd:documentation><![CDATA[ Is default. ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
-                <xsd:anyAttribute namespace="##other" processContents="lax"/>
+                <xsd:anyAttribute namespace="##other" processContents="lax" />
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
@@ -1070,14 +1022,13 @@
         <xsd:complexContent>
             <xsd:extension base="abstractServiceType">
                 <xsd:choice minOccurs="0" maxOccurs="unbounded">
-                    <xsd:element ref="method" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded"/>
-                    <xsd:element ref="beans:property" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element ref="method" minOccurs="0" maxOccurs="unbounded" />
+                    <xsd:element ref="parameter" minOccurs="0" maxOccurs="unbounded" />
+                    <xsd:element ref="beans:property" minOccurs="0" maxOccurs="unbounded" />
                 </xsd:choice>
                 <xsd:attribute name="interface" type="xsd:token" use="required">
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ Defines the interface to advertise for this service in the service registry. ]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ Defines the interface to advertise for this service in the service registry. ]]></xsd:documentation>
                         <xsd:appinfo>
                             <tool:annotation>
                                 <tool:expected-type type="java.lang.Class"/>
@@ -1087,8 +1038,7 @@
                 </xsd:attribute>
                 <xsd:attribute name="ref" type="xsd:string" use="optional">
                     <xsd:annotation>
-                        <xsd:documentation>
-                            <![CDATA[ The service implementation instance bean id. ]]></xsd:documentation>
+                        <xsd:documentation><![CDATA[ The service implementation instance bean id. ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="class" type="xsd:string" use="optional">
@@ -1111,7 +1061,7 @@
                         <xsd:documentation><![CDATA[ Generic service. ]]></xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
-                <xsd:anyAttribute namespace="##other" processContents="lax"/>
+                <xsd:anyAttribute namespace="##other" processContents="lax" />
             </xsd:extension>
         </xsd:complexContent>
     </xsd:complexType>
@@ -1132,133 +1082,72 @@
     <xsd:element name="annotation" type="annotationType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ The annotation config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.ServiceConfig"/>
-                    <tool:exports type="org.apache.dubbo.config.ReferenceConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="application" type="applicationType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ The application config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.ApplicationConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="module" type="moduleType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ The module config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.ModuleConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="registry" type="registryType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ The registry config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.RegistryConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="monitor" type="monitorType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ The logstat monitor config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.MonitorConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="provider" type="providerType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ Export service default config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.ProviderConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="consumer" type="consumerType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ Service reference default config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.ConsumerConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="protocol" type="protocolType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ Service provider config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.ProtocolConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="service" type="serviceType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ Export service config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.ServiceConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="reference" type="referenceType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ Reference service config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.ReferenceConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="method" type="methodType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ The service method config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.MethodConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
     <xsd:element name="argument" type="argumentType">
         <xsd:annotation>
             <xsd:documentation><![CDATA[ The service argument config ]]></xsd:documentation>
-            <xsd:appinfo>
-                <tool:annotation>
-                    <tool:exports type="org.apache.dubbo.config.ArgumentConfig"/>
-                </tool:annotation>
-            </xsd:appinfo>
         </xsd:annotation>
     </xsd:element>
 
