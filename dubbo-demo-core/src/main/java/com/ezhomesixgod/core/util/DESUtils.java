@@ -32,7 +32,6 @@ public class DESUtils {
 	/**
 	 * 加密数据
 	 * @param data 待加密数据
-	 * @param key 密钥
 	 * @return 加密后的数据
 	 */
     /*public static String encrypt(String data, String key) throws Exception {

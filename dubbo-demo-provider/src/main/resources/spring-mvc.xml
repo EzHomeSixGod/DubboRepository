@@ -12,7 +12,6 @@
 	http://www.springframework.org/schema/aop/spring-aop.xsd
 	http://www.springframework.org/schema/mvc 
 	http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd">
-
 	<mvc:default-servlet-handler/>
 	
 	<!-- 开启aspect的支持 -->
@@ -21,7 +20,7 @@
 	<!-- 开启mvc的注解  -->
 	<mvc:annotation-driven></mvc:annotation-driven>
 
-	<!--<cache:annotation-driven cache-manager="cacheManager"/>-->
+
 	
 	 <!-- 自动扫描该包，使SpringMVC认为包下用了@controller注解的类是控制器 -->
     <context:component-scan base-package="com.ezhomesixgod.*">

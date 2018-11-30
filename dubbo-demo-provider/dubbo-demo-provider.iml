@@ -16,6 +16,8 @@
         <fileset id="fileset" name="Spring Mvc" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/spring-mvc.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/spring-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/provider.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-mybatis.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -33,5 +35,6 @@
     <orderEntry type="module" module-name="dubbodemocore" exported="" />
     <orderEntry type="library" exported="" name="Maven: tk.mybatis:mapper:3.3.9" level="project" />
     <orderEntry type="module" module-name="dubbo-demo-common" exported="" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.2.5.RELEASE" level="project" />
   </component>
 </module>

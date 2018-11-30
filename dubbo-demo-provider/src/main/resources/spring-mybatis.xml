@@ -30,7 +30,7 @@
 	<!-- 自动加载属性配置文件 -->
 <!-- 	<context:property-placeholder location="classpath:jdbc.properties" ignore-unresolvable="true"/>  -->
      <!-- 加载配置文件数据 -->
-    <bean class="com.ezhomesixgod.core.config.EncryptPropertyPlaceholderConfigurer">
+    <bean class="com.ezhomesixgod.config.EncryptPropertyPlaceholderConfigurer">
         <property name="locations">
             <list>
                 <value>classpath*:jdbc.properties</value>
@@ -76,41 +76,41 @@
         </property>
     </bean>
  
-   <!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->  
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">  
-        <property name="dataSource" ref="dataSource" />
-        <property name="configLocation" value="com/ezhomesixgod/mapper"></property>
-        <!--  自动扫描mapping.xml文件   -->
-        <property name="mapperLocations" value="classpath:xml/*.xml"></property>
-        <!--设置pageHelper分页-->
-        <property name="typeAliasesPackage" value="com.ezhomesixgod.model"/>
-	    <property name="plugins">
-	        <array>
-	            <bean class="com.github.pagehelper.PageInterceptor">
-	                <!-- 这里的几个配置主要演示如何使用，如果不理解，一定要去掉下面的配置 -->
-	                <property name="properties">
-	                    <value>
-	                        <!-- 数据库类型 -->
-	                        helperDialect=mysql
-	                        <!-- 启用合理化时，如果pageNum<1会查询第一页，如果pageNum>pages会查询最后一页 -->
-                            <!-- 禁用合理化时，如果pageNum<1或pageNum>pages会返回空数据 -->
-	                        reasonable=false
-	                        <!-- 增加了一个`params`参数来配置参数映射，用于从Map或ServletRequest中取值 -->
-                            <!-- 可以配置pageNum,pageSize,count,pageSizeZero,reasonable,orderBy,不配置映射的用默认值 -->
-	                        params=count=countSql
-	                        autoRuntimeDialect=true
-	                    </value>
-	                </property>
-	            </bean>
-	        </array>
-	    </property>
-    </bean> 
+   <!--&lt;!&ndash; spring和MyBatis完美整合，不需要mybatis的配置映射文件 &ndash;&gt;  -->
+    <!--<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">  -->
+        <!--<property name="dataSource" ref="dataSource" />-->
+        <!--<property name="configLocation" value="com/ezhomesixgod/mapper"></property>-->
+        <!--&lt;!&ndash;  自动扫描mapping.xml文件   &ndash;&gt;-->
+        <!--<property name="mapperLocations" value="classpath:xml/*.xml"></property>-->
+        <!--&lt;!&ndash;设置pageHelper分页&ndash;&gt;-->
+        <!--<property name="typeAliasesPackage" value="com.ezhomesixgod.model"/>-->
+	    <!--<property name="plugins">-->
+	        <!--<array>-->
+	            <!--<bean class="com.github.pagehelper.PageInterceptor">-->
+	                <!--&lt;!&ndash; 这里的几个配置主要演示如何使用，如果不理解，一定要去掉下面的配置 &ndash;&gt;-->
+	                <!--<property name="properties">-->
+	                    <!--<value>-->
+	                        <!--&lt;!&ndash; 数据库类型 &ndash;&gt;-->
+	                        <!--helperDialect=mysql-->
+	                        <!--&lt;!&ndash; 启用合理化时，如果pageNum<1会查询第一页，如果pageNum>pages会查询最后一页 &ndash;&gt;-->
+                            <!--&lt;!&ndash; 禁用合理化时，如果pageNum<1或pageNum>pages会返回空数据 &ndash;&gt;-->
+	                        <!--reasonable=false-->
+	                        <!--&lt;!&ndash; 增加了一个`params`参数来配置参数映射，用于从Map或ServletRequest中取值 &ndash;&gt;-->
+                            <!--&lt;!&ndash; 可以配置pageNum,pageSize,count,pageSizeZero,reasonable,orderBy,不配置映射的用默认值 &ndash;&gt;-->
+	                        <!--params=count=countSql-->
+	                        <!--autoRuntimeDialect=true-->
+	                    <!--</value>-->
+	                <!--</property>-->
+	            <!--</bean>-->
+	        <!--</array>-->
+	    <!--</property>-->
+    <!--</bean> -->
 	
-   <!-- 通用mapper接口注入到Spring -->
-   <bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
-	    <property name="basePackage" value="com.ezhomesixgod.mapper" />
-	
-   </bean>
+   <!--&lt;!&ndash; 通用mapper接口注入到Spring &ndash;&gt;-->
+   <!--<bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">-->
+	    <!--<property name="basePackage" value="com.ezhomesixgod.mapper" />-->
+	<!---->
+   <!--</bean>-->
 
  
      <!-- (配置事务管理) --> 
@@ -131,11 +131,12 @@
         <property name="readOnly" value="false"/>
     </bean>
 
-	    
-    <!-- 引入redis缓存配置文件-->
+
+    <!--&lt;!&ndash; 引入redis缓存配置文件&ndash;&gt;-->
     <import resource="classpath:spring-redis.xml" />
-    
+
     <!-- 引入线程池配置文件-->
     <import resource="classpath:spring-pool.xml" />
- 
+
+    <import resource="classpath:provider.xml" />
 </beans>

@@ -1,4 +1,4 @@
-package com.ezhomesixgod.core.config;
+package com.ezhomesixgod.config;
 
 import com.ezhomesixgod.core.util.DESUtils;
 import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
