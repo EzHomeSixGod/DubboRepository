@@ -16,8 +16,8 @@
           <element id="archive" name="dubbo-demo-common-1.0.0.jar">
             <element id="module-output" name="dubbo-demo-common" />
           </element>
-          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.16.RELEASE" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
           <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.5.RELEASE" />

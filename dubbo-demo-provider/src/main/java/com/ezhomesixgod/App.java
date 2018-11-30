@@ -1,5 +1,7 @@
 package com.ezhomesixgod;
 
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 /**
  * @author renyang
  * @description
