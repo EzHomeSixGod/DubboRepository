@@ -14,6 +14,7 @@
         <module>dubbo-demo-provider</module>
         <module>dubbo-demo-core</module>
         <module>dubbo-demo-common</module>
+        <module>dubbo-demo-consumer</module>
     </modules>
     <packaging>pom</packaging>
 

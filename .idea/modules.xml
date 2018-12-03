@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/DubboRepository.iml" filepath="$PROJECT_DIR$/.idea/DubboRepository.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo-api/dubbo-demo-api.iml" filepath="$PROJECT_DIR$/dubbo-demo-api/dubbo-demo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo-common/dubbo-demo-common.iml" filepath="$PROJECT_DIR$/dubbo-demo-common/dubbo-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-demo-consumer/dubbo-demo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-demo-consumer/dubbo-demo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo-provider/dubbo-demo-provider.iml" filepath="$PROJECT_DIR$/dubbo-demo-provider/dubbo-demo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-demo-core/dubbodemocore.iml" filepath="$PROJECT_DIR$/dubbo-demo-core/dubbodemocore.iml" />
     </modules>

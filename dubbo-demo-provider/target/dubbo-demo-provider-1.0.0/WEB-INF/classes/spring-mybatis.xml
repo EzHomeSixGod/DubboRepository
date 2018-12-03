@@ -30,10 +30,10 @@
 	<!-- 自动加载属性配置文件 -->
 <!-- 	<context:property-placeholder location="classpath:jdbc.properties" ignore-unresolvable="true"/>  -->
      <!-- 加载配置文件数据 -->
-    <bean class="com.ezhomesixgod.config.EncryptPropertyPlaceholderConfigurer">
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
             <list>
-                <value>classpath*:jdbc.properties</value>
+                <!--<value>classpath*:jdbc.properties</value>-->
                 <value>classpath*:redis.properties</value>
             </list>
         </property>
@@ -50,32 +50,32 @@
     </bean>
     
     <!-- 配置数据源：使用阿里的druid方式   支持大数据实时查询和分析的高容错、高性能开源分布式系统--> 
-    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
-        <property name="driverClassName" value="${driver}" />
-        <property name="url" value="${url}" />
-        <property name="username" value="${userName}" />
-        <property name="password" value="${password}" />
-        <property name="initialSize" value="${initialSize}" />
-        <property name="minIdle" value="${minIdle}" />
-        <property name="maxActive" value="${maxActive}" />
-        <property name="maxWait" value="${maxWait}" />
-        <property name="timeBetweenEvictionRunsMillis" value="60000" />
-        <property name="minEvictableIdleTimeMillis" value="300000" />
-        <property name="validationQuery" value="SELECT 'x' FROM DUAL" />
-        <property name="testWhileIdle" value="true" />
-        <property name="testOnBorrow" value="false" />
-        <property name="testOnReturn" value="false" />
-        <property name="poolPreparedStatements" value="true" />
-        <property name="connectionInitSqls" value="set names utf8mb4;"/>
-        <property name="maxPoolPreparedStatementPerConnectionSize" value="20" />
-        <property name="proxyFilters">
-            <list>
-                <ref bean="stat-filter"/>
-                <ref bean="slf4j-filter"/>
-            </list>
-        </property>
-    </bean>
- 
+    <!--<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">-->
+        <!--<property name="driverClassName" value="${driver}" />-->
+        <!--<property name="url" value="${url}" />-->
+        <!--<property name="username" value="${userName}" />-->
+        <!--<property name="password" value="${password}" />-->
+        <!--<property name="initialSize" value="${initialSize}" />-->
+        <!--<property name="minIdle" value="${minIdle}" />-->
+        <!--<property name="maxActive" value="${maxActive}" />-->
+        <!--<property name="maxWait" value="${maxWait}" />-->
+        <!--<property name="timeBetweenEvictionRunsMillis" value="60000" />-->
+        <!--<property name="minEvictableIdleTimeMillis" value="300000" />-->
+        <!--<property name="validationQuery" value="SELECT 'x' FROM DUAL" />-->
+        <!--<property name="testWhileIdle" value="true" />-->
+        <!--<property name="testOnBorrow" value="false" />-->
+        <!--<property name="testOnReturn" value="false" />-->
+        <!--<property name="poolPreparedStatements" value="true" />-->
+        <!--<property name="connectionInitSqls" value="set names utf8mb4;"/>-->
+        <!--<property name="maxPoolPreparedStatementPerConnectionSize" value="20" />-->
+        <!--<property name="proxyFilters">-->
+            <!--<list>-->
+                <!--<ref bean="stat-filter"/>-->
+                <!--<ref bean="slf4j-filter"/>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+ <!---->
    <!--&lt;!&ndash; spring和MyBatis完美整合，不需要mybatis的配置映射文件 &ndash;&gt;  -->
     <!--<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">  -->
         <!--<property name="dataSource" ref="dataSource" />-->
@@ -114,22 +114,22 @@
 
  
      <!-- (配置事务管理) --> 
-	<bean id="transactionManager"
-		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-		<property name="dataSource" ref="dataSource" />
-	</bean>
+	<!--<bean id="transactionManager"-->
+		<!--class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+		<!--<property name="dataSource" ref="dataSource" />-->
+	<!--</bean>-->
 
     <!--配置事务管理操作类-->
-    <bean id="transactionTemplate" class="org.springframework.transaction.support.TransactionTemplate">
-        <!--注入事务管理-->
-        <property name="transactionManager" ref="transactionManager"/>
-        <!--定义事务隔离级别，这里-1代表默认-->
-        <property name="isolationLevel" value="-1"/>
-        <!--配置传播行为，0代表PROPAGATION_REQUIRED-->
-        <property name="propagationBehavior" value="0"/>
-        <!--由于进行读写操作，所以这里的只读设置为false，默认也是false，所以可以不用设置-->
-        <property name="readOnly" value="false"/>
-    </bean>
+    <!--<bean id="transactionTemplate" class="org.springframework.transaction.support.TransactionTemplate">-->
+        <!--&lt;!&ndash;注入事务管理&ndash;&gt;-->
+        <!--<property name="transactionManager" ref="transactionManager"/>-->
+        <!--&lt;!&ndash;定义事务隔离级别，这里-1代表默认&ndash;&gt;-->
+        <!--<property name="isolationLevel" value="-1"/>-->
+        <!--&lt;!&ndash;配置传播行为，0代表PROPAGATION_REQUIRED&ndash;&gt;-->
+        <!--<property name="propagationBehavior" value="0"/>-->
+        <!--&lt;!&ndash;由于进行读写操作，所以这里的只读设置为false，默认也是false，所以可以不用设置&ndash;&gt;-->
+        <!--<property name="readOnly" value="false"/>-->
+    <!--</bean>-->
 
 
     <!--&lt;!&ndash; 引入redis缓存配置文件&ndash;&gt;-->
